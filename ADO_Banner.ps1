@@ -1,3 +1,5 @@
+# Simple script that allows you to add banner to multiple Azure DevOps Organisations!!!
+
 # Define the path to the CSV file containing Azure DevOps organizations
 $csvFilePath = "C:\1_Scripts\ADO_Lists\Azure_DevOps_Organizations-Jan24.csv"
 
