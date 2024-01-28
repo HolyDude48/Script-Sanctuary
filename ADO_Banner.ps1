@@ -7,7 +7,7 @@ $csvFilePath = "C:\1_Scripts\ADO_Lists\Azure_DevOps_Organizations-Jan24.csv"
 $organizations = Import-Csv -Path $csvFilePath
 
 # Azure CLI command to add a banner
-$azDevOpsCommand = "az devops admin banner add --message 'DevOps team will reach out to you regarding any necessary adjustments in naming or branching for your Artifactory repositories as we enter Phase 3 of the standardization process. <a href=''https://xwiki.ramboll.com/wiki/devsecopsplaybook/view/Standardization/Standardization%20Phase%203/#''>More information</a>' --type warning --id st-ph-3 --expiration '2024-03-31 15:30:00 UTC'"
+$azDevOpsCommand = "az devops admin banner add --message 'General notification banner. <a href=''https://github.com/''>More information</a>' --type warning --id banner-101 --expiration '2024-12-31 15:30:00 UTC'"
 
 # Iterate through each organization
 foreach ($org in $organizations) {
